@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+.boton-agregar{
+    background-color: #399918;
+    border-radius: 5px;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.task-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+.task-list button {
+    margin-left: 10px;
+}
+.summary {
+    margin-top: 20px;
+}
